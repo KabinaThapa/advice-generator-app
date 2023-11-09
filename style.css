@@ -1,3 +1,34 @@
+*{
+    width:100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+   
+
+ 
+   
+}
 h1{
     color:brown;
+}
+.container{
+    border:solid;
+    width:24rem;
+    height:24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    width:50%;
+    height:2.5rem;
 }
