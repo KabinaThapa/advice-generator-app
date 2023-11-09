@@ -11,24 +11,54 @@ body{
     justify-content: center;
     align-items: center;
     height:100vh;
+    width:100%;
    
 
  
    
 }
-h1{
-    color:brown;
-}
-.container{
-    border:solid;
-    width:24rem;
-    height:24rem;
+.box{
+    width:90%;
+    height:90vh;
+   
+    background-color: rgb(58, 57, 57);
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.container{
+   
+    width:24rem;
+    height:24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    padding:2rem;
+    border-radius: 0.5rem;
+    text-align:center;
+
+}
+.advice{
+    width:90%;
+    height:auto;
+   
+   
+    display: none;
+   
+    font-size:x-large;
+    color:white;
+    
+    
 }
 .button{
     width:50%;
     height:2.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+
+    
 }
