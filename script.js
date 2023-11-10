@@ -8,7 +8,13 @@ function handleClick(){
         document.getElementById('advice').textContent= advice
         document.getElementById('adviceid').textContent= adviceid
         const adviceElement=  document.getElementById('advice')
+        const adviceElementId=document.getElementById('id')
         adviceElement.style.display=(adviceElement.style.display==='none')?'block':'none'
+        adviceElementId.style.display=(adviceElementId.style.display==='none')?'block':'none'
+        const image=document.getElementById('img')
+        image.style.display=(image.style.display==='none')?'block':'none'
+
+
 
 
     })
